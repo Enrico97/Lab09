@@ -6,10 +6,15 @@ public class TestModel {
 
 		Model model = new Model();
 
-		System.out.println("TestModel -- TODO");
+		//model.mappa();
+	//	System.out.println(model.idMap.size());
 		
-//		System.out.println("Creo il grafo relativo al 2000");
-//		model.createGraph(2000);
+		System.out.println("Creo il grafo relativo al 2000");
+		System.out.println(model.creaGrafo(2000));
+		
+		System.out.println(model.vertici());
+		System.out.println(model.archi());
+
 		
 //		List<Country> countries = model.getCountries();
 //		System.out.format("Trovate %d nazioni\n", countries.size());
